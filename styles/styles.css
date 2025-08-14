@@ -779,7 +779,7 @@
   margin: auto 0;
   transition: all 0.3s ease-out;
 }
-#es-rc #es-rc-content .es-qa .es-accordion .active .es-accordion__arrow {
+#es-rc #es-rc-content .es-qa .es-accordion .es-active .es-accordion__arrow {
   transform: rotate(180deg);
 }
 @media (min-width: 768px) {
@@ -788,7 +788,7 @@
     bottom: unset;
     transform: translateY(-50%);
   }
-  #es-rc #es-rc-content .es-qa .es-accordion .active .es-accordion__arrow {
+  #es-rc #es-rc-content .es-qa .es-accordion .es-active .es-accordion__arrow {
     transform: translateY(-50%) rotate(180deg);
   }
 }

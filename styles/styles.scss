@@ -859,7 +859,7 @@ $media-breakpoint-research: 775px;
         margin: auto 0;
         transition: all 0.3s ease-out;
       }
-      .active .es-accordion__arrow {
+      .es-active .es-accordion__arrow {
         transform: rotate(180deg);
       }
       @media (min-width: $media-breakpoint-md) {
@@ -868,7 +868,7 @@ $media-breakpoint-research: 775px;
           bottom: unset;
           transform: translateY(-50%);
         }
-        .active .es-accordion__arrow {
+        .es-active .es-accordion__arrow {
           transform: translateY(-50%) rotate(180deg);
         }
       }
